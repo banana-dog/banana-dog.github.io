@@ -1,0 +1,3 @@
+<span class="reading-time" title="Время для чтения">
+  {% assign words = include.content | number_of_words %}
+  {% if words < 100 %} 1 мин. {% else %} {{ words | divided_by:80 }} мин. {% endif %} на чтение </span>
