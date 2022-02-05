@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Posts
+title: Посты
 background: '/img/bg-post.jpg'
 ---
 
@@ -15,13 +15,29 @@ background: '/img/bg-post.jpg'
     <h3 class="post-subtitle">{{ post.excerpt | strip_html | truncatewords: 15 }}</h3>
     {% endif %}
   </a>
-  <p class="post-meta">Posted by
+  <p class="post-meta">Опубликовано
     {% if post.author %}
     {{ post.author }}
     {% else %}
     {{ site.author }}
     {% endif %}
-    on {{ post.date | date: '%B %d, %Y' }} &middot; {% include read_time.html content=post.content %}
+    {% assign m = post.date | date: "%-m" %}
+		{{ post.date | date: "%-d" }}
+		{% case m %}
+		  {% when '1' %}января
+		  {% when '2' %}февраля
+		  {% when '3' %}марта
+		  {% when '4' %}апреля
+		  {% when '5' %}мая
+		  {% when '6' %}июня
+		  {% when '7' %}июля
+		  {% when '8' %}августа
+		  {% when '9' %}сентября
+		  {% when '10' %}октября
+		  {% when '11' %}ноября
+		  {% when '12' %}декабря
+		{% endcase %}
+		{{ post.date | date: "%Y" }}, {% include read_time.html content=post.content %}
   </p>
 </article>
 
