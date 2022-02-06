@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+<!-- Page Header -->
+<link rel="stylesheet" href="/assets/css/main.css">
+	  <script src="/assets/js/particles.min.js"></script>
+	<script src="{{ "/assets/js/sweet-scroll.min.js" | prepend: site.baseurl }}"></script>
+	<script src="{{ "/assets/js/main.js" | prepend: site.baseurl }}"></script>
+    <div id="particles-js">
+	<div class="header">
+	<h1>
+        <span class="site-title">{{page.title}}</span>
+        <span class="site-description">{{page.description}}</span>
+     </h1>
+	      <div class="header-links"> <br>
+        <a class="link" href="/contact">Свяжись со мной</a>
+        <a class="link" href="https://github.com/banana-dog?tab=repositories">GitHub</a>
+      </div>
+	</div>
+    </div>
+	  <a class="down" href="#content" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
+      <section id="content">   
+   <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+
+        {{ content }}
+
+      </div>
+    </div>
+  </div>
+  </section>
+ {% include head.html %}
+ 
+<body>
+
+  {% include navbar.html %}
+
+  {% include footer.html %}
+
+  {% include scripts.html %}
+
+</body>
+
+</html>
