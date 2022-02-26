@@ -56,11 +56,11 @@ layout: default
 
           {% if page.previous.url %}
           <a class="btn btn-primary float-left" href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{ page.previous.title }}">&larr; Предыдущий<span class="d-none d-md-inline">
-              Post</span></a>
+              пост</span></a>
           {% endif %}
           {% if page.next.url %}
-          <a class="btn btn-primary float-right" href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{ page.next.title }}">Слдующий<span class="d-none d-md-inline">
-              Post</span> &rarr;</a>
+          <a class="btn btn-primary float-right" href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{ page.next.title }}">Следующий<span class="d-none d-md-inline">
+              пост</span> &rarr;</a>
           {% endif %}
 
         </div>
