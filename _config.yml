@@ -16,6 +16,7 @@ github_username:    banana-dog
 # google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
 
 # Build settings
+highlighter: rouge
 markdown:           kramdown
 paginate:           5
 paginate_path:      "/posts/page:num/"
