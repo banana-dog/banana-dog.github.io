@@ -11,7 +11,7 @@ background: '/img/post_pic.jpg'
 
 Мне стало интересно самой вычислить корень из двух по методу Ньютона, но считать я решила не на бумажке, а в питоне. Вот такая программка у меня вышла:
 
-{% highlight python %}
+{% highlight python linenos %}
 def f(x):
     return x**2-2
 
