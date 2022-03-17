@@ -4,7 +4,7 @@ title: "Файервол🔥🧱"
 subtitle: "Игры без рекламы!!!"
 date: 2022-03-05 22:17:00 +0300
 categories: blog
-background: '/img/post_pic.jpg'
+background: '/img/firewall_bg.png'
 ---
 
 Что такое файервол? 
