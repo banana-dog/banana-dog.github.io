@@ -1,8 +1,8 @@
 .lineno { color: #ffffff; margin-right: 0;}
 
-.highlight code {color:#fdce93; background-color:#3f3f3f;}
+.highlight code {color:#fdce93; background-color:#282828}
 
-.highlight pre {color:#fdce93; background-color:#3f3f3f; padding: 0.5em;  border-radius: 20px; }
+.highlight pre {color:#ffffffa1;; background-color:#282828; padding: 0.5em;  border-radius: 20px; }
 
 .highlight .hll {
 background-color:#222;
@@ -18,7 +18,7 @@ color:#f0dfaf;
 }
 
 .highlight .p {
-color:#479f9d;
+color:#ff49b8;
 }
 
 .highlight .cs {
@@ -104,7 +104,7 @@ color:#ccc;
 }
 
 .highlight .n,.preview-zenburn .highlight .nv,.preview-zenburn .highlight .vg {
-color:#dcdccc;
+color:#1affc9;;
 }
 
 .highlight .o,.preview-zenburn .highlight .ow {
