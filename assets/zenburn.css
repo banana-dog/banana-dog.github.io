@@ -2,7 +2,13 @@
 
 .highlight code {color:#fdce93; background-color:#282828}
 
-.highlight pre {color:#ffffffa1;; background-color:#282828; padding: 0.5em;  border-radius: 20px; }
+.highlight pre {color:#ffffffa1; background-color:#282828; padding: 0.5em;  border-radius: 20px; }
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .highlight .hll {
 background-color:#222;
@@ -104,7 +110,7 @@ color:#ccc;
 }
 
 .highlight .n,.preview-zenburn .highlight .nv,.preview-zenburn .highlight .vg {
-color:#1affc9;;
+color:#1affc9;
 }
 
 .highlight .o,.preview-zenburn .highlight .ow {
