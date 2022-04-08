@@ -4,7 +4,7 @@ title: "Открыть неоткрываемое🤯"
 subtitle: "Или как переименовать 1400 файлов за 1 секунду⚡"
 date: 2022-03-24 00:35:00 +0300
 categories: blog
-background:
+background: /img/change_file_name/open_pic_bg.png
 ---
 
 
