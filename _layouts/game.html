@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+<link rel="stylesheet" href="/assets/css/background.css">
+<script src="{{ "/assets/js/sweet-scroll.min.js" | prepend: site.baseurl }}"></script>
+{% include head.html %}
+<header class="masthead" style="background-image: url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}')"> 
+    <div id="particles-js">
+		<div class="header">
+		<h1>
+			<span class="site-title">{{page.title}}</span>
+			<span class="site-description">{{page.description}}</span>
+		</h1>
+			<div class="header-links"> <br>
+			<a class="link" href="https://github.com/banana-dog/Space-Dog-Game/releases/latest/download/space_dog.apk">Скачать бесплатно без смс и регистрации</a>
+			<a class="link" href="https://github.com/banana-dog?tab=repositories">GitHub</a>
+		  </div>
+		</div>
+    </div>
+	<a class="down" href="#content" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
+</header>
+<body>
+<section id="content">   
+   <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+
+        {{ content }}
+
+      </div>
+    </div>
+  </div>
+  </section>
+  {% include navbar.html %}
+
+  {% include footer.html %}
+
+  {% include scripts.html %}
+
+</body>
+
+</html>
